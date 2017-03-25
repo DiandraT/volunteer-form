@@ -32,6 +32,10 @@ input[type="checkbox"] {
   border-color: #6e8c62;
 }
 
+input[id="list"] {
+  display: none;
+}
+
 hr {
   border-color: #70ad55;
   margin-left: .5em;

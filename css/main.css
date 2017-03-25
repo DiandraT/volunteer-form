@@ -38,7 +38,7 @@ hr {
 }
 
 .regular-checkbox {
-	background-color: red;
+  background-color: red;
 }
 
 fieldset {
@@ -47,5 +47,5 @@ fieldset {
 
 .radio-btn,
 .radio-btn-2 {
-  display:inline-block;
+  display: inline-block;
 }

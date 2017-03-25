@@ -27,8 +27,7 @@ input[id="address"],
 input[id="city"],
 select[id="options"],
 select[id="prov-options"],
-input[id="postal"],
-input[type="checkbox"] {
+input[id="postal"] {
   border-color: #6e8c62;
 }
 
@@ -40,4 +39,13 @@ hr {
 
 .regular-checkbox {
 	background-color: red;
+}
+
+fieldset {
+  border: 0;
+}
+
+.radio-btn,
+.radio-btn-2 {
+  display:inline-block;
 }

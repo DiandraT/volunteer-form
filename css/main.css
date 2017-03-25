@@ -19,6 +19,21 @@ h1 {
   background-color: #70ad55;
 }
 
-input[type=text] {
-  border: 2px solid #6e8c62;
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[id="tel"],
+input[id="address"],
+input[id="city"],
+select[id="options"],
+select[id="prov-options"],
+input[id="postal"],
+input[type="checkbox"] {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
+  margin-left: .5em;
+  margin-right: .5em;
 }

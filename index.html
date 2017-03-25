@@ -11,20 +11,126 @@
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans:700|Droid+Serif" rel="stylesheet">
 </head>
 <body>
-  <section class="wrapper island push-2">
-    <h1 class="bold">Apply to be a tree planter</h1>
-    <p class="subtitle">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <section class="wrapper gutter-1-4 pad-t pad-b-1-2 push-2">
+    <header>
+      <h1 class="bold gutter-1-2 push-1-2">Apply to be a tree planter</h1>
+      <p class="subtitle mega gutter-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
   </section>
 
-    <form class="push-0" method="POST" action="https://formspree.io/thom1049@algonquinlive.com">
-    <h2 class="giga gutter-1-4 push">Personal details</h2>
+  <form class="push-0" method="POST" action="https://formspree.io/thom1049@algonquinlive.com">
+    <h2 class="giga gutter-1-2 pad-b-1-2">Personal details</h2>
 
-    <div class="gutter-1-4 push-0">
+    <div class="gutter-1-2">
       <label for="full-name" class="push-1-8 kilo">Full name</label>
       <input type="text" id="full-name" name="name">
       <p class="micro italic pad-t-1-4">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
     </div>
-    </form>
+
+    <div class="gutter-1-2">
+      <label for="question" class="push-1-8 kilo">What should we call you?</label>
+      <input type="text" id="question" name="question">
+      <p class="micro italic pad-t-1-4">What all your friends call you, e.g. “Liz”.</p>
+    </div>
+
+    <div class="gutter-1-2 push">
+      <label for="date" class="push-1-8 kilo">Date of birth</label>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <div class="gutter-1-2 push">
+      <label for="options" class="push-1-8 kilo">T-shirt size</label>
+      <select id="options" name="options">
+        <option value="">Select a t-shirt size</option>
+        <option>Fitted: XS</option>
+        <option>Fitted: S</option>
+        <option>Fitted: M</option>
+        <option>Fitted: L</option>
+        <option>Fitted: XL</option>
+        <option>Straight-cut: XS</option>
+        <option>Straight-cut: S</option>
+        <option>Straight-cut: M</option>
+        <option>Straight-cut: L</option>
+        <option>Straight-cut: XL</option>
+      </select>
+    </div>
+
+    <div class="gutter-1-2 push">
+      <label for="email" class="push-1-8 kilo">Email</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <div class="gutter-1-2 push-2">
+      <label for="tel" class="push-1-8 kilo">Phone number</label>
+      <input type="tel" id="tel" name="tel">
+    </div>
+
+    <hr class="push-2">
+
+    <h2 class="giga gutter-1-2 pad-b-1-2">Address</h2>
+
+    <div class="gutter-1-2 push">
+      <label for="address" class="push-1-8 kilo">Street address</label>
+      <input id="address" name="address">
+    </div>
+
+    <div class="gutter-1-2 push">
+      <label for="city" class="push-1-8 kilo">City</label>
+      <input id="city" name="city">
+    </div>
+
+    <div class="gutter-1-2 push">
+      <label for="prov-options" class="push-1-8 kilo">Province</label>
+      <select id="prov-options" name="prov-options">
+        <option value="">Select a province</option>
+        <option>Alberta</option>
+        <option>British Columbia</option>
+        <option>Manitoba</option>
+        <option>New Brunswick</option>
+        <option>Newfoundland & Labrador</option>
+        <option>Northwest Territories</option>
+        <option>Nova Scotia</option>
+        <option>Nunavut</option>
+        <option>Ontario</option>
+        <option>Prince Edward Island</option>
+        <option>Québec</option>
+        <option>Saskatchewan</option>
+        <option>Yukon</option>
+      </select>
+    </div>
+
+    <div class="gutter-1-2 push-2">
+      <label for="postal" class="push-1-8 kilo">Postal code</label>
+      <input id="postal" name="postal">
+    </div>
+
+    <hr class="push-2">
+
+    <div>
+      <label for="dig" class="push kilo">What activities are you interested in helping with?</label>
+      <input type="checkbox" name="dig" value="dig" id="dig">
+      <label for="dig" class="push-1-4">Digging holes</label>
+      <br>
+      <input type="checkbox" name="dirt" value="dirt" id="dirt">
+      <label for="dirt" class="push-1-4">Getting dirty</label>
+      <br>
+      <input type="checkbox" name="drive" value="drive" id="drive">
+      <label for="drive" class="push-1-4">Driving people</label>
+      <br>
+      <input type="checkbox" name="tree" value="tree" id="tree">
+      <label for="tree" class="push-1-4">Transporting trees</label>
+      <br>
+      <input type="checkbox" name="photos" value="photos" id="photos">
+      <label for="photos" class="push-1-4">Taking photos</label>
+      <br>
+      <input type="checkbox" name="online" value="online" id="online">
+      <label for="online" class="push-1-4">Online publishing</label>
+      <br>
+      <input type="checkbox" name="manage" value="manage" id="manage">
+      <label for="manage" class="push-1-4">Managing people</label>
+    </div>
+
+  </form>
 
 </body>
 </html>

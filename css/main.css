@@ -27,7 +27,8 @@ input[id="address"],
 input[id="city"],
 select[id="options"],
 select[id="prov-options"],
-input[id="postal"] {
+input[id="postal"],
+input[type="radio"] {
   border-color: #6e8c62;
 }
 
